@@ -51,6 +51,7 @@ function generateMarkdown(data) {
 Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ## Installation
+
 To install this application, please follow the steps below:
 - ${data.install}
 
@@ -74,11 +75,13 @@ To install this application, please follow the steps below:
 - ${data.test}
 
 ## Questions 
+
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
 
 ## Contribute
 
 - ${data.contribute}
+
 The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
 
 `;
