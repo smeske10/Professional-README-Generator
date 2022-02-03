@@ -2,25 +2,25 @@
 // If there is no license, return an empty string
 function renderLicense(license) {
   if (license ==='Apache') {
-    return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'
+    return '![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)(https://opensource.org/licenses/Apache-2.0)'
   }
   if (license ==='Unlicense') {
     return ''
   }
   if (license ==='MIT') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    return '![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)'
   }
   if (license ==='Berkeley Source Distribution (BSD)') {
-    return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'
+    return '![License: BSD](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)'
   }
   if (license ==='GNU General Public License (GPL)') {
-    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+    return '![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
   }
   if (license ==='Mozilla Public License (MPL)') {
-    return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
+    return '![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)(https://opensource.org/licenses/MPL-2.0)'
   }
   if (license ==='Eclipse Public License (EPL)') {
-    return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)'
+    return '![License: EPL](https://img.shields.io/badge/License-EPL_1.0-red.svg)(https://opensource.org/licenses/EPL-1.0)'
   }
 }
 
@@ -35,10 +35,20 @@ function generateMarkdown(data) {
 
 ## Table of Contents
 
+- [License](#license)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+- [Features](#features)
+- [Credits](#contributors & credit)
+- [Tests](#tests)
+- [Questions](#questions)
+- [How to contribute](#how to contribute)
+
+## License
+
+- ${renderLicense(data.license)}
+
+Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ## Installation
 To install this application, please follow the steps below:
@@ -63,12 +73,6 @@ To install this application, please follow the steps below:
 
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
-
-## License
-
-- ${renderLicense(data.license)}
-
-Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ## How to Contribute
 
