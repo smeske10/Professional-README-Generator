@@ -39,10 +39,10 @@ function generateMarkdown(data) {
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Credits](#contributors & credit)
+- [Credits](#credits)
 - [Tests](#tests)
 - [Questions](#questions)
-- [How to contribute](#how to contribute)
+- [Contribute](#Contribute)
 
 ## License
 
@@ -56,13 +56,15 @@ To install this application, please follow the steps below:
 
 ## Usage
 
-![alt text](assets/images/screenshot.png)
+![Screenshot of Application](assets/images/screenshot.png)
+
+![Recording of Application](assets/recordings/recording.mp4)
 
 ## Features
 
 - ${data.features}
 
-## Contributors & Credit
+## Credits
 
 - ${data.contributors}
 - ${data.thirdparty}
@@ -74,7 +76,7 @@ To install this application, please follow the steps below:
 ## Questions 
 If you have any questions about the repo, open an issue or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
 
-## How to Contribute
+## Contribute
 
 - ${data.contribute}
 The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.

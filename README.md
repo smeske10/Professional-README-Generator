@@ -18,7 +18,8 @@
 
 ## License
 
-- ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+- (https://opensource.org/licenses/MIT)
 
 Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -29,6 +30,7 @@ To install this application, please follow the steps below:
 ## Usage
 
 ![Screenshot of Application](assets/images/screenshot.png)
+
 ![Recording of Application](assets/recordings/recording.mp4)
 
 ## Features
