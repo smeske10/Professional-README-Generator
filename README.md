@@ -28,7 +28,8 @@ To install this application, please follow the steps below:
 
 ## Usage
 
-![alt text](assets/images/screenshot.png)
+![Screenshot of Application](assets/images/screenshot.png)
+![Recording of Application](assets/recordings/recording.mp4)
 
 ## Features
 
