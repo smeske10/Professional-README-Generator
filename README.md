@@ -11,10 +11,10 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Credits](#contributors & credit)
+- [Credit](#Credit)
 - [Tests](#tests)
 - [Questions](#questions)
-- [How to contribute](#how to contribute)
+- [Contribute](#Contribute)
 
 ## License
 
@@ -24,6 +24,7 @@
 Refer to [https://choosealicense.com/](https://choosealicense.com/).
 
 ## Installation
+
 To install this application, please follow the steps below:
 - Install the folder and initiate with node index inquirer in the integrated terminal
 
@@ -37,7 +38,7 @@ To install this application, please follow the steps below:
 
 - Description, Table of Contents, Installation, Usage, Features, Contributors, tests, questions
 
-## Contributors & Credit
+## Credit
 
 - None
 - None
@@ -47,9 +48,10 @@ To install this application, please follow the steps below:
 - In the integrated terminal, invoke 'node index inquirer'
 
 ## Questions 
+
 If you have any questions about the repo, open an issue or contact me directly at undefined. You can find more of my work at [smeske10](https://github.com/smeske10/).
 
-## How to Contribute
+## Contribute
 
 - This is an open source project - create a branch and submit a pull request
 The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard.
