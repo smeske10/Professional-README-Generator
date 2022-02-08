@@ -31,7 +31,7 @@ To install this application, please follow the steps below:
 ## Usage
 
 ![Screenshot of Application](assets/images/screenshot.png)
-
+![Recording of Application] https://youtu.be/xMoAZVIiGT0
 ![Recording of Application](assets/recordings/recording.mp4)
 
 ## Features
